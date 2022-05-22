@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg-custom{
+	background: #21243d;
+}
+.wall-custom{
+	height: 200px;
+	background: #21243d;
+	padding-top: 50px;
+}
+.input-custom {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.input-custom label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  cursor: text;
+}
+.input-custom input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.1rem 0;
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: none;
+  color: #111;
+}
+.input-custom input:invalid {
+  	outline: 0;
+ 	/*color: #ff2300;*/
+  	border-color: #fff;
+}
+.input-custom input:focus,
+.input-custom input:valid {
+  border-color: #19C766;
+}
+.input-custom input:focus~label,
+.input-custom input:valid~label {
+  font-size: 0.9em;
+  top: -20px;
+  color: #19C766;
+}
+.table-custom{
+	background: #fff;
+	border:1px solid #f0f0f0;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 0.9em;
+	font-family: sans-serif;
+}
+.table-custom thead{
+	padding:0;
+}
+.table-custom td{
+	padding: 10px;
+}
+.table-custom tbody tr:nth-child(odd){
+	background: #fafafa;
+}
